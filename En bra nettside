@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+	<meta charset="utf-8">
+	<title>Analyse</title>
+</head>
+
+<body>
+	
+	<h1> Bli med i trekningen for en ny EKTE BIL </h1>
+	
+	<form action="main.html">
+
+ <fieldset>
+  <legend>Personlige detaljer:</legend>
+  Navn: <br> <input type="text" required="Skriv her"><br>
+  Email:<br><input type="text"required="Skriv her"><br>
+  Tlf nmr:<br><input type="text" required="Skriv her"><br>
+  <br> 
+  <label>Fødselsdato:</label><br><br>
+  <input type="date" name="Bursdag" required="Skriv her">
+<br>
+<br>
+<form action="/action_page.php">
+<p>Hvilket kjønn er du:</p>
+  <input type="radio" name="gender" value="male"> Gentleman<br>
+  <input type="radio" name="gender" value="female"> Not a Gentleman<br>
+  <input type="radio" name="gender" value="other" required="Skriv her"> Alt annet<br>  
+<br><br><br>
+<button type="submit">Send inn søknad></button>
+
+</form>
+
+ </fieldset>
+</form>
+
+
+
+
+
+</body>
+
+</html>
